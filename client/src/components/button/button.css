@@ -1,0 +1,25 @@
+.btn-body {
+  padding: 7px 15px;
+  user-select: none;
+  transition: transform 200ms cubic-bezier(0, 1.1, 0.67, 1.1), opacity 200ms;
+  border-radius: 5px;
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.btn-text {
+  transition: transform 200ms cubic-bezier(0, 1.1, 0.67, 1.1);
+  text-decoration: none;
+}
+
+.btn-text:visited {
+  text-decoration: none;
+}
+
+.btn-body:hover .btn-text {
+  transform: scale(0.8);
+}
+.btn-body:hover {
+  transform: scale(1.1);
+  opacity: 1;
+}

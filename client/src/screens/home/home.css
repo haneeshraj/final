@@ -1,0 +1,49 @@
+.home-header-heading,
+.home-header-subtext {
+  margin: 0;
+  text-align: center;
+  transition: all 200ms cubic-bezier(0, 1.1, 0.67, 1.1);
+  user-select: none;
+}
+
+.home-header {
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+}
+
+.home-header:hover .home-header-heading {
+  transform: translateY(-1vh);
+}
+
+.home-header:hover .home-header-subtext {
+  transform: translateY(1vh);
+  opacity: 1;
+}
+
+.home-header-heading {
+  font-size: 60px;
+}
+
+.home-header-subtext {
+  margin-top: 1vh;
+  opacity: 0.4;
+}
+
+.home-content {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10vh;
+}
+
+.home-content p {
+  width: 45vw;
+  font-size: 15px;
+  letter-spacing: 1px;
+  line-height: 27px;
+}
+
+.home-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10vw;
+}

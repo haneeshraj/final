@@ -1,0 +1,11 @@
+.dev-head h1 {
+  font-size: 50px;
+  text-align: center;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+}
+
+.dev-cards {
+  display: flex;
+  justify-content: center;
+}
